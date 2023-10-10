@@ -1,0 +1,28 @@
+var searchData=
+[
+  ['safety_20not_20implemented_0',['Thread Safety (Not Implemented)',['../thread-safety.html',1,'extra']]],
+  ['self_20transition_1',['Self Transition',['../local-transition.html#autotoc_md38',1,'Case #2: Self-Transition'],['../self-transition.html',1,'Self-Transition']]],
+  ['self_20transition_20with_20maki_2',['How to Define a Self-Transition with Maki',['../self-transition.html#autotoc_md45',1,'']]],
+  ['sets_3',['Sets',['../event-set.html',1,'Event Type Sets'],['../state-set.html',1,'State Sets'],['../event-set.html#autotoc_md54',1,'When to Use Event Type Sets'],['../state-set.html#autotoc_md59',1,'When to Use State Sets']]],
+  ['simple_20state_4',['Simple State',['../completion-transition.html#autotoc_md33',1,'From a Simple State'],['../self-transition.html#autotoc_md43',1,'Simple State']]],
+  ['small_5fevent_5fmax_5falign_5',['small_event_max_align',['../classmaki_1_1machine__conf.html#a3c63a96eeddb321f55919c40a2e719bf',1,'maki::machine_conf']]],
+  ['small_5fevent_5fmax_5fsize_6',['small_event_max_size',['../classmaki_1_1machine__conf.html#a34a502139fbec029f57abb605fac4baa',1,'maki::machine_conf']]],
+  ['start_7',['start',['../structmaki_1_1events_1_1start.html',1,'maki::events::start'],['../classmaki_1_1machine.html#af79f38894fe22a18e1f2d3fc24ef335b',1,'maki::machine::start()']]],
+  ['started_8',['Getting Started',['../getting-started.html',1,'index']]],
+  ['state_9',['State',['../composite-state.html',1,'Composite State'],['../self-transition.html#autotoc_md44',1,'Composite State'],['../completion-transition.html#autotoc_md34',1,'From a Composite State'],['../completion-transition.html#autotoc_md33',1,'From a Simple State'],['../self-transition.html#autotoc_md43',1,'Simple State'],['../state.html',1,'State'],['../undefined-state.html',1,'The Undefined State'],['../composite-state.html#autotoc_md10',1,'When to Use a Composite State'],['../undefined-state.html#autotoc_md61',1,'Why We Need the Undefined State']]],
+  ['state_10',['state',['../classmaki_1_1state.html',1,'maki::state&lt; Impl &gt;'],['../classmaki_1_1machine.html#a3a072a797de651198ca1c218a565c306',1,'maki::machine::state()'],['../classmaki_1_1region.html#a7416df872a6a832aa8674e252f5b2e72',1,'maki::region::state()'],['../action.html#autotoc_md7',1,'Within the associated state']]],
+  ['state_20context_11',['State Context',['../context.html#autotoc_md52',1,'']]],
+  ['state_20machine_12',['State Machine',['../state-machine.html',1,'concepts']]],
+  ['state_20machine_13',['When to use a state machine',['../state-machine.html#autotoc_md27',1,'']]],
+  ['state_20machine_20context_14',['State Machine Context',['../context.html#autotoc_md51',1,'']]],
+  ['state_20object_15',['Note: The Null Dummy State Object',['../external-transition-hook.html#external-transition-hook-null-state',1,'']]],
+  ['state_20sets_16',['State Sets',['../state-set.html',1,'State Sets'],['../state-set.html#autotoc_md59',1,'When to Use State Sets']]],
+  ['state_20with_20maki_17',['State with Maki',['../composite-state.html#autotoc_md11',1,'How to Define and Use a Composite State with Maki'],['../undefined-state.html#autotoc_md62',1,'How to Use the Undefined State with Maki']]],
+  ['state_5fcontext_5fsignature_18',['state_context_signature',['../namespacemaki.html#a61b45b5e258c0826942cf2fc378b66b7',1,'maki']]],
+  ['state_5fmold_19',['state_mold',['../classmaki_1_1state__mold.html',1,'maki']]],
+  ['state_5fset_20',['state_set',['../classmaki_1_1state__set.html',1,'maki']]],
+  ['states_20with_20maki_21',['How to define states with Maki',['../state.html#autotoc_md31',1,'']]],
+  ['stop_22',['stop',['../structmaki_1_1events_1_1stop.html',1,'maki::events::stop'],['../classmaki_1_1machine.html#a2e0f50a1d9b245a7ff1b92f6630c835b',1,'maki::machine::stop()']]],
+  ['substate_23',['Substate',['../local-transition.html#autotoc_md40',1,'Case #1: Local Transition to Substate'],['../local-transition.html#autotoc_md37',1,'Case #1: Transition to Substate']]],
+  ['substate_24',['substate',['../classmaki_1_1state.html#a4e7656f8e4ffe456cec451a797e114c0',1,'maki::state']]]
+];
