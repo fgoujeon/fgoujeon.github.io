@@ -24,14 +24,15 @@ var searchData=
   ['composition_21',['Guard Composition',['../guard-composition.html',1,'extra']]],
   ['concepts_22',['Concepts',['../concepts.html',1,'index']]],
   ['conf_23',['conf',['../classmaki_1_1machine.html#a9a8d37af38bc125ac636a4c0f53162ef',1,'maki::machine']]],
-  ['contains_24',['contains',['../classmaki_1_1event__set.html#a5cc8adf90ea19d2e6a788ffa5e8e2df0',1,'maki::event_set']]],
+  ['contains_24',['contains',['../classmaki_1_1event__set.html#a50827a266e823d1b9f98032b2e437acf',1,'maki::event_set::contains() const'],['../classmaki_1_1event__set.html#a291b71fa2188d2ae758296b16466c5ff',1,'maki::event_set::contains(event_t&lt; Event &gt;) const']]],
   ['context_25',['Context',['../context.html',1,'Context'],['../context.html#autotoc_md52',1,'State Context'],['../context.html#autotoc_md51',1,'State Machine Context']]],
   ['context_26',['context',['../classmaki_1_1machine.html#ac903098bea81789cf1be2a75c74bc862',1,'maki::machine::context()'],['../classmaki_1_1machine.html#ae09d9894053c81f4552415544b4e99f0',1,'maki::machine::context() const'],['../classmaki_1_1state.html#a62e8ef7046073baff5ff3fb35c959261',1,'maki::state::context()']]],
   ['context_5fa_27',['context_a',['../classmaki_1_1machine__conf.html#a429ce287b378d4c03f773aa8ea64f949',1,'maki::machine_conf']]],
   ['context_5fam_28',['context_am',['../classmaki_1_1machine__conf.html#a79bfffcf61b55c67c7a4d2c54bd1e84c',1,'maki::machine_conf']]],
   ['context_5fc_29',['context_c',['../classmaki_1_1state__mold.html#a21322950112987dbe487d0cdfc3208c2',1,'maki::state_mold']]],
   ['context_5fcm_30',['context_cm',['../classmaki_1_1state__mold.html#a04879ee6848ee6c79a2f4fb44c4fe7b8',1,'maki::state_mold']]],
-  ['context_5fm_31',['context_m',['../classmaki_1_1state__mold.html#a5ebc02cf9567dff8fea8873ee11ed214',1,'maki::state_mold']]],
-  ['context_5ftype_32',['context_type',['../classmaki_1_1machine.html#a54dcd35428e982eefaecfa1bb4db54d7',1,'maki::machine']]],
-  ['context_5fv_33',['context_v',['../classmaki_1_1state__mold.html#a381bae34b1c8e40d173083048e6c92b6',1,'maki::state_mold']]]
+  ['context_5flifetime_31',['context_lifetime',['../classmaki_1_1state__mold.html#adb81ca13d234162e3a8a5e1db31317cf',1,'maki::state_mold']]],
+  ['context_5fm_32',['context_m',['../classmaki_1_1state__mold.html#a5ebc02cf9567dff8fea8873ee11ed214',1,'maki::state_mold']]],
+  ['context_5ftype_33',['context_type',['../classmaki_1_1machine.html#a54dcd35428e982eefaecfa1bb4db54d7',1,'maki::machine']]],
+  ['context_5fv_34',['context_v',['../classmaki_1_1state__mold.html#a381bae34b1c8e40d173083048e6c92b6',1,'maki::state_mold']]]
 ];

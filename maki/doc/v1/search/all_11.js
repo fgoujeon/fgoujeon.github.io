@@ -18,11 +18,13 @@ var searchData=
   ['state_20object_15',['Note: The Null Dummy State Object',['../external-transition-hook.html#external-transition-hook-null-state',1,'']]],
   ['state_20sets_16',['State Sets',['../state-set.html',1,'State Sets'],['../state-set.html#autotoc_md59',1,'When to Use State Sets']]],
   ['state_20with_20maki_17',['State with Maki',['../composite-state.html#autotoc_md11',1,'How to Define and Use a Composite State with Maki'],['../undefined-state.html#autotoc_md62',1,'How to Use the Undefined State with Maki']]],
-  ['state_5fcontext_5fsignature_18',['state_context_signature',['../namespacemaki.html#a61b45b5e258c0826942cf2fc378b66b7',1,'maki']]],
-  ['state_5fmold_19',['state_mold',['../classmaki_1_1state__mold.html',1,'maki']]],
-  ['state_5fset_20',['state_set',['../classmaki_1_1state__set.html',1,'maki']]],
-  ['states_20with_20maki_21',['How to define states with Maki',['../state.html#autotoc_md31',1,'']]],
-  ['stop_22',['stop',['../structmaki_1_1events_1_1stop.html',1,'maki::events::stop'],['../classmaki_1_1machine.html#a2e0f50a1d9b245a7ff1b92f6630c835b',1,'maki::machine::stop()']]],
-  ['substate_23',['Substate',['../local-transition.html#autotoc_md40',1,'Case #1: Local Transition to Substate'],['../local-transition.html#autotoc_md37',1,'Case #1: Transition to Substate']]],
-  ['substate_24',['substate',['../classmaki_1_1state.html#a4e7656f8e4ffe456cec451a797e114c0',1,'maki::state']]]
+  ['state_5factivity_18',['state_activity',['../namespacemaki.html#a0ad3a51e172f16dc1d95e12b67eb7bccac801ab676994f50dd4c1503c2eb7097d',1,'maki']]],
+  ['state_5fcontext_5flifetime_19',['state_context_lifetime',['../namespacemaki.html#a0ad3a51e172f16dc1d95e12b67eb7bcc',1,'maki']]],
+  ['state_5fcontext_5fsignature_20',['state_context_signature',['../namespacemaki.html#a61b45b5e258c0826942cf2fc378b66b7',1,'maki']]],
+  ['state_5fmold_21',['state_mold',['../classmaki_1_1state__mold.html',1,'maki']]],
+  ['state_5fset_22',['state_set',['../classmaki_1_1state__set.html',1,'maki']]],
+  ['states_20with_20maki_23',['How to define states with Maki',['../state.html#autotoc_md31',1,'']]],
+  ['stop_24',['stop',['../structmaki_1_1events_1_1stop.html',1,'maki::events::stop'],['../classmaki_1_1machine.html#a2e0f50a1d9b245a7ff1b92f6630c835b',1,'maki::machine::stop()']]],
+  ['substate_25',['Substate',['../local-transition.html#autotoc_md40',1,'Case #1: Local Transition to Substate'],['../local-transition.html#autotoc_md37',1,'Case #1: Transition to Substate']]],
+  ['substate_26',['substate',['../classmaki_1_1state.html#a4e7656f8e4ffe456cec451a797e114c0',1,'maki::state']]]
 ];
