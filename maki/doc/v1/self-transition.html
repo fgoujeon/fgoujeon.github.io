@@ -95,23 +95,23 @@ $(function(){initNavTree('self-transition.html','',''); });
 </div><!--header-->
 <div class="contents">
 <div class="textblock"><p><a class="anchor" id="md__2home_2florian_2Development_2maki_2src_2doc_2concepts_2transition_2self-transition"></a></p>
-<h1 class="doxsection"><a class="anchor" id="autotoc_md42"></a>
+<h1 class="doxsection"><a class="anchor" id="autotoc_md46"></a>
 Definition</h1>
 <p>A self-transition is a transition whose source and target is the same state.</p>
-<h2 class="doxsection"><a class="anchor" id="autotoc_md43"></a>
+<h2 class="doxsection"><a class="anchor" id="autotoc_md47"></a>
 Simple State</h2>
 <p>In the example below, whenever <span class="tt">ST</span> is active and the event <span class="tt">E</span> happens, the state machine executes <span class="tt">exit_action</span>, then <span class="tt">entry_action</span>.</p>
 <div class="plantumlgraph">
 <img src="regular_self_transition_with_simple_state.png" />
 </div>
-<h2 class="doxsection"><a class="anchor" id="autotoc_md44"></a>
+<h2 class="doxsection"><a class="anchor" id="autotoc_md48"></a>
 Composite State</h2>
 <p>In the case of a composite state, besides the execution of possible exit and entry actions, a self-transition also causes external transitions to the initial state for all the regions.</p>
 <p>In the example below, whenever <span class="tt">ST</span> is active and the event <span class="tt">E</span> happens, the state machine executes, in the region of <span class="tt">ST</span>, an external transition from the active substate (whatever it is) to <span class="tt">X</span>.</p>
 <div class="plantumlgraph">
 <img src="regular_self_transition_with_composite_state.png" />
 </div>
-<h1 class="doxsection"><a class="anchor" id="autotoc_md45"></a>
+<h1 class="doxsection"><a class="anchor" id="autotoc_md49"></a>
 How to Define a Self-Transition with Maki</h1>
 <p>An external self-transition is a transition going from <span class="tt">ST</span> to <span class="tt">ST</span>:</p>
 <div class="fragment"><div class="line">(ST, ST, maki::event&lt;E&gt;)</div>

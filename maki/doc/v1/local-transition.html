@@ -95,7 +95,7 @@ $(function(){initNavTree('local-transition.html','',''); });
 </div><!--header-->
 <div class="contents">
 <div class="textblock"><p><a class="anchor" id="md__2home_2florian_2Development_2maki_2src_2doc_2concepts_2transition_2local-transition"></a></p>
-<h1 class="doxsection"><a class="anchor" id="autotoc_md36"></a>
+<h1 class="doxsection"><a class="anchor" id="autotoc_md40"></a>
 Definition</h1>
 <p>A transition is said to be <b>external</b> when it exits its source state. Otherwise, the transition is said to be <b>local</b>.</p>
 <p>Exiting a state causes:</p>
@@ -109,7 +109,7 @@ Definition</h1>
 <li>(for composite states only) the initial states to be entered.</li>
 </ol>
 <p>A transition to a sibling state or to the superstate is inevitably external, as the source state must be exited to allow the target state to be entered. However, in the case of a transition to a substate, or a self-transition, things can be different.</p>
-<h2 class="doxsection"><a class="anchor" id="autotoc_md37"></a>
+<h2 class="doxsection"><a class="anchor" id="autotoc_md41"></a>
 Case #1: Transition to Substate</h2>
 <p>An <b>external</b> transition from <span class="tt">S</span> to its substate <span class="tt">T</span> looks like this:</p>
 <div class="image">
@@ -137,7 +137,7 @@ Case #1: Transition to Substate</h2>
 <img src="transition_locality_substate_local_star.png" />
 </div>
 <p>Other regions, if any, are not affected.</p>
-<h2 class="doxsection"><a class="anchor" id="autotoc_md38"></a>
+<h2 class="doxsection"><a class="anchor" id="autotoc_md42"></a>
 Case #2: Self-Transition</h2>
 <p>An <b>external</b> transition from <span class="tt">ST</span> to itself looks like this:</p>
 <div class="plantumlgraph">
@@ -161,14 +161,14 @@ Case #2: Self-Transition</h2>
 </ol>
 <p>that is, only the 3rd step of the equivalent external transition, because <span class="tt">ST</span> is neither exited nor reentered.</p>
 <p>The special case of a local self-transition is called an <b>internal transition</b>. The action associated to an internal transition is called an <b>internal action</b>.</p>
-<h1 class="doxsection"><a class="anchor" id="autotoc_md39"></a>
+<h1 class="doxsection"><a class="anchor" id="autotoc_md43"></a>
 How to Define a Local Transition with Maki</h1>
 <p>Within Maki, all transitions are external by default. You can express local transitions for the two cases we've seen.</p>
-<h2 class="doxsection"><a class="anchor" id="autotoc_md40"></a>
+<h2 class="doxsection"><a class="anchor" id="autotoc_md44"></a>
 Case #1: Local Transition to Substate</h2>
 <p><a class="el" href="state-set.html" title="State Sets">State sets</a> extend the concept of local transitions to substates; a transition whose source state is <span class="tt">maki::all_states</span> is the equivalent of such a transition:</p>
 <div class="fragment"><div class="line">(maki::all_states, T, maki::event&lt;E&gt;)</div>
-</div><!-- fragment --><h2 class="doxsection"><a class="anchor" id="autotoc_md41"></a>
+</div><!-- fragment --><h2 class="doxsection"><a class="anchor" id="autotoc_md45"></a>
 Case #2: Internal Transition</h2>
 <p>In the transition table, you can pass <span class="tt">maki::null</span> in lieu of a target state to define an internal transition:</p>
 <div class="fragment"><div class="line">(ST, maki::null, maki::event&lt;E&gt;, A)</div>

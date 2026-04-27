@@ -129,6 +129,12 @@ template&lt;class Context&gt; </td></tr>
 template&lt;class Context&gt; </td></tr>
 <tr class="memitem:a381bae34b1c8e40d173083048e6c92b6 template"><td class="memItemLeft">constexpr state_mold&lt; IMPLEMENTATION_DETAIL &gt;&#160;</td><td class="memItemRight"><b>context_v</b> () const</td></tr>
 <tr class="memdesc:a381bae34b1c8e40d173083048e6c92b6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the type of the context (see <a class="el" href="namespacemaki.html#a61b45b5e258c0826942cf2fc378b66b7" title="maki::state_context_signature">signatures</a>). <br /></td></tr>
+<tr class="memitem:a4f96e555ce67ae971458d0689ab16b80" id="r_a4f96e555ce67ae971458d0689ab16b80"><td class="memTemplParams" colspan="2">template&lt;class Event&gt; </td></tr>
+<tr class="memitem:a4f96e555ce67ae971458d0689ab16b80 template"><td class="memItemLeft">constexpr state_mold&lt; IMPLEMENTATION_DETAIL &gt;&#160;</td><td class="memItemRight"><a class="el" href="#a4f96e555ce67ae971458d0689ab16b80">defer</a> () const</td></tr>
+<tr class="memdesc:a4f96e555ce67ae971458d0689ab16b80"><td class="mdescLeft">&#160;</td><td class="mdescRight">Add <span class="tt">Event</span> to the set of <a class="el" href="event-deferral.html" title="Event Deferral">deferred event</a> types.  <br /></td></tr>
+<tr class="memitem:a68df397b65042a945ac2fd7f7fdab17c" id="r_a68df397b65042a945ac2fd7f7fdab17c"><td class="memTemplParams" colspan="2">template&lt;class EventSetImpl&gt; </td></tr>
+<tr class="memitem:a68df397b65042a945ac2fd7f7fdab17c template"><td class="memItemLeft">constexpr state_mold&lt; IMPLEMENTATION_DETAIL &gt;&#160;</td><td class="memItemRight"><a class="el" href="#a68df397b65042a945ac2fd7f7fdab17c">defer</a> (const <a class="el" href="classmaki_1_1event__set.html">event_set</a>&lt; EventSetImpl &gt; &amp;) const</td></tr>
+<tr class="memdesc:a68df397b65042a945ac2fd7f7fdab17c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Add <span class="tt"><a class="el" href="namespacemaki_1_1events.html" title="Some predefined events emitted by Maki itself.">events</a></span> to the set of <a class="el" href="event-deferral.html" title="Event Deferral">deferred event</a> types.  <br /></td></tr>
 <tr class="memitem:ac9525c95ec827ea66b3115f14742fc73" id="r_ac9525c95ec827ea66b3115f14742fc73"><td class="memTemplParams" colspan="2"><a id="ac9525c95ec827ea66b3115f14742fc73" name="ac9525c95ec827ea66b3115f14742fc73"></a>
 template&lt;class Event, class Action&gt; </td></tr>
 <tr class="memitem:ac9525c95ec827ea66b3115f14742fc73 template"><td class="memItemLeft">constexpr state_mold&lt; IMPLEMENTATION_DETAIL &gt;&#160;</td><td class="memItemRight"><b>entry_action_c</b> (const Action &amp;<a class="el" href="structmaki_1_1action.html">action</a>) const</td></tr>
@@ -427,7 +433,71 @@ template&lt;class Impl&gt; </div>
 </div><div class="memdoc">
 
 <p>Sets the lifetime of the context. </p>
-<dl class="section note"><dt>Note</dt><dd>Available from Maki 1.1.0. </dd></dl>
+<dl class="section note"><dt>Note</dt><dd>Available since Maki 1.1.0. </dd></dl>
+
+</div>
+</div>
+<a id="a4f96e555ce67ae971458d0689ab16b80" name="a4f96e555ce67ae971458d0689ab16b80"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4f96e555ce67ae971458d0689ab16b80">&#9670;&#160;</a></span>defer() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class Impl&gt; </div>
+<div class="memtemplate">
+template&lt;class Event&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">state_mold&lt; IMPLEMENTATION_DETAIL &gt; <a class="el" href="classmaki_1_1state__mold.html">maki::state_mold</a>&lt; Impl &gt;::defer </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel nodiscard">nodiscard</span><span class="mlabel constexpr">constexpr</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Add <span class="tt">Event</span> to the set of <a class="el" href="event-deferral.html" title="Event Deferral">deferred event</a> types. </p>
+<dl class="section note"><dt>Note</dt><dd>Available since Maki 1.2.0. </dd></dl>
+
+</div>
+</div>
+<a id="a68df397b65042a945ac2fd7f7fdab17c" name="a68df397b65042a945ac2fd7f7fdab17c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a68df397b65042a945ac2fd7f7fdab17c">&#9670;&#160;</a></span>defer() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class Impl&gt; </div>
+<div class="memtemplate">
+template&lt;class EventSetImpl&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">state_mold&lt; IMPLEMENTATION_DETAIL &gt; <a class="el" href="classmaki_1_1state__mold.html">maki::state_mold</a>&lt; Impl &gt;::defer </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classmaki_1_1event__set.html">event_set</a>&lt; EventSetImpl &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel nodiscard">nodiscard</span><span class="mlabel constexpr">constexpr</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Add <span class="tt"><a class="el" href="namespacemaki_1_1events.html" title="Some predefined events emitted by Maki itself.">events</a></span> to the set of <a class="el" href="event-deferral.html" title="Event Deferral">deferred event</a> types. </p>
+<dl class="section note"><dt>Note</dt><dd>Available since Maki 1.2.0. </dd></dl>
 
 </div>
 </div>

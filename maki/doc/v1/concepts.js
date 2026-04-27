@@ -1,20 +1,20 @@
 var concepts =
 [
     [ "State Machine", "state-machine.html", [
-      [ "Definition", "state-machine.html#autotoc_md26", null ],
-      [ "When to use a state machine", "state-machine.html#autotoc_md27", null ],
-      [ "What Maki can do for you", "state-machine.html#autotoc_md28", [
-        [ "Example program", "state-machine.html#autotoc_md29", null ]
+      [ "Definition", "state-machine.html#autotoc_md30", null ],
+      [ "When to use a state machine", "state-machine.html#autotoc_md31", null ],
+      [ "What Maki can do for you", "state-machine.html#autotoc_md32", [
+        [ "Example program", "state-machine.html#autotoc_md33", null ]
       ] ]
     ] ],
     [ "Event", "event.html", [
-      [ "How to use events within Maki", "event.html#autotoc_md12", [
-        [ "Example", "event.html#autotoc_md13", null ]
+      [ "How to use events within Maki", "event.html#autotoc_md16", [
+        [ "Example", "event.html#autotoc_md17", null ]
       ] ]
     ] ],
     [ "State", "state.html", [
-      [ "Definition", "state.html#autotoc_md30", null ],
-      [ "How to define states with Maki", "state.html#autotoc_md31", null ]
+      [ "Definition", "state.html#autotoc_md34", null ],
+      [ "How to define states with Maki", "state.html#autotoc_md35", null ]
     ] ],
     [ "Action", "action.html", [
       [ "Definition", "action.html#autotoc_md0", [
@@ -30,16 +30,16 @@ var concepts =
       ] ]
     ] ],
     [ "Guard", "guard.html", [
-      [ "Definition", "guard.html#autotoc_md14", null ],
-      [ "When to use a guard", "guard.html#autotoc_md15", null ],
-      [ "How to define guards within Maki", "guard.html#autotoc_md16", [
-        [ "Example", "guard.html#autotoc_md17", null ]
+      [ "Definition", "guard.html#autotoc_md18", null ],
+      [ "When to use a guard", "guard.html#autotoc_md19", null ],
+      [ "How to define guards within Maki", "guard.html#autotoc_md20", [
+        [ "Example", "guard.html#autotoc_md21", null ]
       ] ]
     ] ],
     [ "Run-to-Completion", "run-to-completion.html", [
-      [ "Definition", "run-to-completion.html#autotoc_md23", null ],
-      [ "When to use run-to-completion", "run-to-completion.html#autotoc_md24", null ],
-      [ "How to enable run-to-completion within Maki", "run-to-completion.html#autotoc_md25", null ]
+      [ "Definition", "run-to-completion.html#autotoc_md27", null ],
+      [ "When to use run-to-completion", "run-to-completion.html#autotoc_md28", null ],
+      [ "How to enable run-to-completion within Maki", "run-to-completion.html#autotoc_md29", null ]
     ] ],
     [ "Composite State", "composite-state.html", [
       [ "Definition", "composite-state.html#autotoc_md9", null ],
@@ -47,9 +47,16 @@ var concepts =
       [ "How to Define and Use a Composite State with Maki", "composite-state.html#autotoc_md11", null ]
     ] ],
     [ "Region", "region.html", [
-      [ "Definition", "region.html#autotoc_md20", null ],
-      [ "When to Use Orthogonal Regions", "region.html#autotoc_md21", null ],
-      [ "How to Define Orthogonal Regions with Maki", "region.html#autotoc_md22", null ]
+      [ "Definition", "region.html#autotoc_md24", null ],
+      [ "When to Use Orthogonal Regions", "region.html#autotoc_md25", null ],
+      [ "How to Define Orthogonal Regions with Maki", "region.html#autotoc_md26", null ]
+    ] ],
+    [ "Event Deferral", "event-deferral.html", [
+      [ "Definition", "event-deferral.html#autotoc_md12", [
+        [ "Example", "event-deferral.html#autotoc_md13", null ]
+      ] ],
+      [ "When to Use Event Deferral", "event-deferral.html#autotoc_md14", null ],
+      [ "How to Defer an Event with Maki", "event-deferral.html#autotoc_md15", null ]
     ] ],
     [ "Transitions", "transition.html", "transition" ],
     [ "Pseudostates", "pseudostate.html", "pseudostate" ]

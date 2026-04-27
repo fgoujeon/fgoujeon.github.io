@@ -103,7 +103,7 @@ Dependency Between Maki Objects</div>
 </div>
 <p>If you ever want to call <span class="tt"><a class="el" href="classmaki_1_1machine.html#a1a302486e82bc0ecc021ae1ccb38f44c" title="Processes the given event.">maki::machine::process_event()</a></span> from, say, an action, you'll have a circular dependency.</p>
 <p>There are two ways you can solve this issue.</p>
-<h1 class="doxsection"><a class="anchor" id="autotoc_md49"></a>
+<h1 class="doxsection"><a class="anchor" id="autotoc_md53"></a>
 Using a Template</h1>
 <p>Just use a template or a generic lambda:</p>
 <div class="fragment"><div class="line"><span class="keyword">constexpr</span> <span class="keyword">auto</span> my_action = <a class="code hl_function" href="structmaki_1_1action.html#a686b26c2d0d6c61ae44ca09189a4de53">maki::action_m</a>([](<span class="keyword">auto</span>&amp; mach)</div>
@@ -119,7 +119,7 @@ Using a Template</h1>
 <ul>
 <li>It forces you to write code into header files.</li>
 </ul>
-<h1 class="doxsection"><a class="anchor" id="autotoc_md50"></a>
+<h1 class="doxsection"><a class="anchor" id="autotoc_md54"></a>
 Using a <span class="tt">maki::machine_ref</span></h1>
 <p><span class="tt"><a class="el" href="classmaki_1_1machine__ref.html" title="A type-erasing container for a reference to a machine of any type.">maki::machine_ref</a></span> is a type-erasing wrapper for a reference to a mutable <span class="tt"><a class="el" href="classmaki_1_1machine.html" title="The state machine implementation template.">maki::machine</a></span>.</p>
 <dl class="section note"><dt>Note</dt><dd>In C++, type erasure is the process of storing an object into a container whose type doesn't expose the exact type of the object.</dd></dl>

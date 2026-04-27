@@ -30,6 +30,18 @@ state running {
 running -> failing : error
 hide empty description
 @enduml
+@startuml event_deferral_example.png
+hide empty description
+[*] --> stopped
+stopped --> initializing : start_button_press
+initializing --> paused : end_of_initialization
+paused --> playing : play_button_press
+stopped <-- paused : stop_button_press
+paused <-- playing : pause_button_press
+stopped <-- playing : stop_button_press
+
+initializing : play_button_press / defer
+@enduml
 @startuml motor_sm.png
 hide empty description
 [*] --> idle

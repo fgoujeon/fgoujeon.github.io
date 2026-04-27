@@ -95,7 +95,7 @@ $(function(){initNavTree('state-machine.html','',''); });
 </div><!--header-->
 <div class="contents">
 <div class="textblock"><p><a class="anchor" id="md__2home_2florian_2Development_2maki_2src_2doc_2concepts_2state-machine"></a></p>
-<h1 class="doxsection"><a class="anchor" id="autotoc_md26"></a>
+<h1 class="doxsection"><a class="anchor" id="autotoc_md30"></a>
 Definition</h1>
 <p>A state machine (also known as finite-state machine, FSM, or SM) is a model that defines all the possible states of a system, the events that trigger a transition from one state to another, and the actions that are performed when these transitions occur.</p>
 <p>A very simple example of such a system is a lamp. It has:</p>
@@ -116,7 +116,7 @@ The state machine of a lamp</div>
 <li>pressing the button while the <span class="tt">off</span> state is active executes the <span class="tt">turn light on</span> action and activates the <span class="tt">on</span> state;</li>
 <li>pressing the button while the <span class="tt">on</span> state is active executes the <span class="tt">turn light off</span> action and activates the <span class="tt">off</span> state.</li>
 </ul>
-<h1 class="doxsection"><a class="anchor" id="autotoc_md27"></a>
+<h1 class="doxsection"><a class="anchor" id="autotoc_md31"></a>
 When to use a state machine</h1>
 <p>When suitable, state machines help you:</p>
 <ul>
@@ -145,7 +145,7 @@ When to use a state machine</h1>
 <div class="line">        <span class="comment">//...</span></div>
 <div class="line">    }</div>
 <div class="line">}</div>
-</div><!-- fragment --><h1 class="doxsection"><a class="anchor" id="autotoc_md28"></a>
+</div><!-- fragment --><h1 class="doxsection"><a class="anchor" id="autotoc_md32"></a>
 What Maki can do for you</h1>
 <p>Admittedly, you don't <em>need</em> a library to implement a state machine. A couple of <span class="tt">enum</span>s and <span class="tt">switch</span>es can do the trick for simple cases. However, when things get complicated or when you need more advanced features, some sort of state machine framework becomes very handy, if not mandatory.</p>
 <p>One of the most important things a library such as Maki provides is a <b>transition table</b>.</p>
@@ -163,7 +163,7 @@ What Maki can do for you</h1>
 </ul>
 <p>This gives you a nice overview of what a program does. Moreover, the more complex a state machine is, the more valuable a transition table is for the readability of your code.</p>
 <p><b>[TIP]</b> Transition tables are much more readable when their "columns" are properly aligned. If an alignment plugin exists for your code editor, it's time to install it!</p>
-<h2 class="doxsection"><a class="anchor" id="autotoc_md29"></a>
+<h2 class="doxsection"><a class="anchor" id="autotoc_md33"></a>
 Example program</h2>
 <p>Here is a test program that uses the transition table we defined above:</p>
 <div class="fragment"><div class="line"><span class="preprocessor">#include &lt;maki.hpp&gt;</span></div>

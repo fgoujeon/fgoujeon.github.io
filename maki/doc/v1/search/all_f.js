@@ -23,8 +23,8 @@ var searchData=
   ['process_5fevent_5fnow_20',['process_event_now',['../classmaki_1_1machine.html#aefec3a5ea86c6e79b48391615095c7a5',1,'maki::machine']]],
   ['process_5fevent_5fnow_5fenabled_21',['process_event_now_enabled',['../classmaki_1_1machine__conf.html#a08106090a3cd7e8b9a8fa96250c54570',1,'maki::machine_conf']]],
   ['processing_20hooks_22',['Pre- and Post-Processing Hooks',['../processing-hook.html',1,'hook']]],
-  ['program_23',['Example program',['../state-machine.html#autotoc_md29',1,'']]],
-  ['pseudostate_20in_20maki_24',['How to Use the Initial Pseudostate in Maki',['../initial.html#autotoc_md19',1,'']]],
+  ['program_23',['Example program',['../state-machine.html#autotoc_md33',1,'']]],
+  ['pseudostate_20in_20maki_24',['How to Use the Initial Pseudostate in Maki',['../initial.html#autotoc_md23',1,'']]],
   ['pseudostates_25',['Pseudostates',['../pseudostate.html',1,'concepts']]],
   ['push_5fevent_26',['push_event',['../classmaki_1_1machine.html#ae1cd655fd6e60bc833ccfffc5f3162a2',1,'maki::machine']]]
 ];

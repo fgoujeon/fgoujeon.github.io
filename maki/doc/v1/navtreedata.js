@@ -26,8 +26,8 @@ var NAVTREE =
 [
   [ "Maki", "index.html", [
     [ "Getting Started", "getting-started.html", [
-      [ "Requirements", "getting-started.html#autotoc_md63", null ],
-      [ "Installation and Usage", "getting-started.html#autotoc_md64", null ]
+      [ "Requirements", "getting-started.html#autotoc_md67", null ],
+      [ "Installation and Usage", "getting-started.html#autotoc_md68", null ]
     ] ],
     [ "Concepts", "concepts.html", "concepts" ],
     [ "Extra Features", "extra.html", "extra" ],

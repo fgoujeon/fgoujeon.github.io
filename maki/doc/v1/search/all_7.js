@@ -2,7 +2,7 @@ var searchData=
 [
   ['getting_20started_0',['Getting Started',['../getting-started.html',1,'index']]],
   ['guard_1',['Guard',['../guard.html',1,'concepts']]],
-  ['guard_2',['guard',['../structmaki_1_1guard.html',1,'maki::guard&lt; Sig, Callable &gt;'],['../guard.html#autotoc_md15',1,'When to use a guard']]],
+  ['guard_2',['guard',['../structmaki_1_1guard.html',1,'maki::guard&lt; Sig, Callable &gt;'],['../guard.html#autotoc_md19',1,'When to use a guard']]],
   ['guard_20composition_3',['Guard Composition',['../guard-composition.html',1,'extra']]],
   ['guard_5fc_4',['guard_c',['../structmaki_1_1guard.html#a9fa8608f245b85177474dc3bd3508582',1,'maki::guard::guard_c()'],['../structmaki_1_1guard.html#a9fa8608f245b85177474dc3bd3508582',1,'maki::guard_c()']]],
   ['guard_5fce_5',['guard_ce',['../structmaki_1_1guard.html#aadfa94bb6e9a3b25eec6d9a5f3a4cfa8',1,'maki::guard::guard_ce()'],['../structmaki_1_1guard.html#aadfa94bb6e9a3b25eec6d9a5f3a4cfa8',1,'maki::guard_ce()']]],
@@ -13,5 +13,5 @@ var searchData=
   ['guard_5fme_10',['guard_me',['../structmaki_1_1guard.html#a3863c5290188bf98a31991ecc808d6c4',1,'maki::guard::guard_me()'],['../structmaki_1_1guard.html#a3863c5290188bf98a31991ecc808d6c4',1,'maki::guard_me(const Callable &amp;callable)']]],
   ['guard_5fsignature_11',['guard_signature',['../namespacemaki.html#a3d552f5513e450b1c7920aaa8b7590a1',1,'maki']]],
   ['guard_5fv_12',['guard_v',['../structmaki_1_1guard.html#a6027d58db60c0302c2537de502621506',1,'maki::guard::guard_v()'],['../structmaki_1_1guard.html#a6027d58db60c0302c2537de502621506',1,'maki::guard_v()']]],
-  ['guards_20within_20maki_13',['How to define guards within Maki',['../guard.html#autotoc_md16',1,'']]]
+  ['guards_20within_20maki_13',['How to define guards within Maki',['../guard.html#autotoc_md20',1,'']]]
 ];
